@@ -46,16 +46,15 @@ a {
 
 .banner-left {
     display: flex;
-    max-height: 350px;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .banner-right {
     display: flex;
-    max-width: 650px;
-    max-height: 350px;
+    width: 60%;
+    max-height: 200px;
     flex-direction: column;
     align-items: flex-end;
 }
@@ -71,6 +70,7 @@ a {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    margin-bottom: 15px;
 }
 
 .learn-how{
@@ -124,15 +124,15 @@ a {
 .quote {
     background-color: #e5e7eb;
     margin: 40px 0;
-    padding: 40px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .quote-container {
-    max-width: 50%;
-    padding: 40px;
+    max-width: 80%;
+    padding: 80px 0;
 }
 
 .quote-text {
