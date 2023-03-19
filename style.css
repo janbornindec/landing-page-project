@@ -6,11 +6,6 @@ body {
     font-size: 15px;
 }
 
-img { /*to adjust later*/
-    width: 300px;
-    height: 300px;
-}
-
 ul {
     display: flex;
     list-style-type: none;
@@ -45,13 +40,24 @@ a {
 .banner-left {
     display: flex;
     flex-direction: column;
-    flex: 1;
     align-items: flex-start;
 }
 
 .banner-right {
     display: flex;
     flex-direction: column;
-    flex: 2;
     align-items: flex-end;
+}
+
+.intro-heading {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.banner-right > img {
+    width: 650px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 40%;
 }
