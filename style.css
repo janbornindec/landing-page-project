@@ -6,6 +6,8 @@ body {
     font-size: 15px;
 }
 
+/* Top navigation bar section */
+
 ul {
     display: flex;
     list-style-type: none;
@@ -37,6 +39,8 @@ a {
     color: #f9faf8;
     font-family: Copperplate, fantasy;
 }
+
+/* Banner section */
 
 .banner {
     display: flex;
@@ -86,6 +90,8 @@ a {
     margin-bottom: 20px;
 }
 
+/* Popular items section */
+
 .popular {
     display: flex;
     flex-direction: column;
@@ -121,6 +127,8 @@ a {
     object-position: 30% 50%;
 }
 
+/* Quote section */
+
 .quote {
     background-color: #e5e7eb;
     margin: 40px 0;
@@ -147,9 +155,14 @@ a {
     justify-content: flex-end;
 }
 
+/* CTA section */
+
 .call-to-action {
     display: flex;
-    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #3882f6;
     padding: 40px;
     border-radius: 10px;
@@ -187,4 +200,13 @@ a {
     text-decoration: none;
     color: white;
     font-size: 15px;
+}
+
+/* Footer section */
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 40px;
+    text-align: center;
 }
