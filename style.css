@@ -23,7 +23,7 @@ a {
 .header {
     background-color: #1f2937;
     color: white;
-    padding: 40px 80px;
+    padding: 0 80px;
 }
 
 .navigation-bar {
@@ -34,7 +34,7 @@ a {
 
 .banner {
     display: flex;
-    padding: 40px 20px;
+    padding: 80px 20px;
     justify-content: space-between;
 }
 
