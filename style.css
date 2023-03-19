@@ -47,7 +47,6 @@ a {
 .banner-left {
     display: flex;
     max-height: 350px;
-    max-width: 450px;
     flex-direction: column;
     align-items: flex-start;
     margin-right: 40px;
