@@ -2,7 +2,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: 'Courier New', monospace;
+    font-family: Roboto, sans-serif;
     font-size: 15px;
 }
 
@@ -58,7 +58,7 @@ a {
 .banner-right {
     display: flex;
     width: 60%;
-    max-height: 200px;
+    max-height: 230px;
     flex-direction: column;
     align-items: flex-end;
 }
@@ -67,7 +67,7 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 50% 40%;
+    object-position: 10% 35%;
 }
 
 .intro-heading {
