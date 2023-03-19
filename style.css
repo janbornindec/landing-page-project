@@ -73,6 +73,15 @@ a {
     color: #f9faf8;
 }
 
+.learn-how{
+    background-color: #3882f6;
+    border: 0px;
+    width: 130px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
 .intro-text {
     margin-bottom: 20px;
 }
