@@ -146,3 +146,45 @@ a {
     display: flex;
     justify-content: flex-end;
 }
+
+.call-to-action {
+    display: flex;
+    margin: auto;
+    background-color: #3882f6;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.cta-title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cta-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    border: 2px solid white;
+    background-color: #3882f6;
+    width: 130px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#cta {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
